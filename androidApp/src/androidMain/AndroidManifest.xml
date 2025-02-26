@@ -21,8 +21,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity
-            android:name=".MainActivity"
+<activity
+    android:name=".MainActivityUpdated"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|mnc|colorMode|density|fontScale|fontWeightAdjustment|keyboard|layoutDirection|locale|mcc|navigation|smallestScreenSize|touchscreen|uiMode"
             android:exported="true">
             <intent-filter>
@@ -42,9 +42,9 @@
                 android:resource="@xml/path_provider" />
         </provider>
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="MAPS_API_KEY" />
+<meta-data
+    android:name="com.google.android.geo.API_KEY"
+    android:value="AIzaSyBWHeuJ0bUvTKwaskzW0jBeBNjSA-5jWRA" />
 
 
     </application>

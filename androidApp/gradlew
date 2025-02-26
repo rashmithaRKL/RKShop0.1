@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+set -e
+
+# Determine the directory of this script
+DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Execute the Gradle wrapper
+exec "$DIR/gradle/wrapper/gradle" "$@"
